@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scape</title>
+    <link rel="stylesheet" href="style/addMusica.css">
+    <link rel="stylesheet" href="style/reset.css">
+</head>
+<body>
+    <header class="container__cabeca">
+        <div id="logo__titulo">
+            <h1><button class="bot__titulo">Scape</button></h1>
+        </div>
+    </header>
+    <main>
+        <div class="container__inputs">
+            <div class="nome__input">
+                <label for="input__nomeMusica"><h2>Nome da musica</h2></label>
+                <input type="text" name="musica" id="input__nomeMusica" placeholder="Musica" required maxlength="30">
+            </div>
+            <div class="nome__input">
+                <label for="input__Cantor"><h2>Nome do cantor</h2></label>
+                <input type="text" name="cantor" id="input__Cantor" placeholder="Cantor" required maxlength="25">
+            </div>
+            <div class="nome__input">
+                <label for="input__video"><h2>Add a url (embed) do video</h2></label>
+                <input type="url" name="video" id="input__video" min="15" placeholder="URL video" required>
+            </div>
+            <div class="nome__input">
+                <label for="input__imagem"><h2>Add uma Imagem</h2></label>
+                <input type="url" name="imagem" id="input__imagem" min="15" placeholder="URL imagem" required>
+            </div>
+            <button type="submit" class="submit__bot">Adicionar musica</button>
+        </div>
+    </main>
+    <script src="../js/addMusica.js" type="module"></script>
+</body>
+</html>
+

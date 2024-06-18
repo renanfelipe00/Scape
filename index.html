@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scape</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/stilo.css">
+</head>
+<body>
+    <header class="container__cabeca">
+        <div id="logo__titulo">
+
+            <h1>Scape</h1>
+        </div>
+        <div id="add__music">
+            <button data-addMusica>Adicionar musica</button>
+        </div>
+    </header>
+    <main>
+        <div class="container__pesquisa">
+            <div class="lupa"></div>
+            <input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar" maxlength="35">
+        </div>
+        <section class="container__musica">
+            <div class="iframe__musicas">
+                <h2>Adicionadas Recentemente</h2>
+                <iframe src="pages/pag__musicas.html" class="Add__recent" frameborder="0"></iframe>
+            </div>
+            <div class="iframe__musicas">
+                <h2>Recomendações</h2>
+                <iframe src="pages/pag__musicas.html" frameborder="0"></iframe>
+            </div>
+            <div class="iframe__musicas">
+                <h2>Recomendações</h2>
+                <iframe src="pages/pag__musicas.html" frameborder="0"></iframe>
+            </div>
+            <div class="iframe__musicas">
+                <h2>Recomendações</h2>
+                <iframe src="pages/pag__musicas.html" frameborder="0"></iframe>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>
