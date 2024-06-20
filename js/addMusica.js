@@ -1,7 +1,7 @@
 const botTitulo = document.querySelector('.bot__titulo');
 const botSubmit = document.querySelector('.submit__bot');
 const nomeInput = document.querySelectorAll('.nome__input input');
-const APIlink = 'https://scape-seven.vercel.app/js/musicas.json'
+const APIlink = 'http://localhost:3000/musicas'
 
 botTitulo.addEventListener('click', () => {
     window.location.href = `../index.html`
