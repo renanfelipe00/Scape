@@ -6,7 +6,7 @@ async function API () {
     const API = await fetch(linkAPI);
     const listadeMusicas = await API.json();
     criarCardMusic(listadeMusicas);
-    aleatoriezar(listadeMusicas);
+    aleatoriezar(listadeMusicas)
 }
 API();
 
